@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConIngenio - Sitio Web</title>
+    <link rel="stylesheet" href="Estilos.css/style.css" id="stylesheet"> <!-- Referencia al archivo CSS -->
+    </head>
+<body>
+    <header>
+        <img src="/Recursos/con-ingenio-solo-colores.png">
+        <h1>Coningenio</h1>
+        <button id="themeToggleBtn" onclick="toggleMode()">Cambiar Modo</button> <!-- Botón para cambiar el modo -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Nuestros Servicios</a></li>
+                <li><a href="#contact">Contáctenos</a></li>
+                <li><a href="#about">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bienvenido a ConIngenio</h2>
+        <p>¡Bienvenido a Coningenio! Somos una empresa dedicada a impulsar la transformación digital de tu negocio. Desde estrategias digitales hasta soluciones tecnológicas innovadoras, estamos aquí para ayudarte a alcanzar tus objetivos comerciales. Explora nuestro sitio web para descubrir cómo podemos colaborar contigo en tu viaje hacia el éxito digital.
+
+        </p>
+        <a href="#services">Ver nuestros servicios</a>
+    </section>
+
+    <section id="services">
+        <h2>Nuestros Servicios</h2>
+        <div class="service" id="service-1">
+            <h3>Consultoría Digital</h3>
+            <p>Brindamos asesoramiento experto en estrategias digitales para impulsar el crecimiento y la transformación empresarial.</p>
+        </div>
+        <div class="service" id="service-2">
+            <h3>Soluciones Multiexperiencia</h3>
+            <p>Desarrollamos experiencias digitales coherentes en todos los canales para mejorar la interacción con tus clientes.</p>
+        </div>
+        <div class="service" id="service-3">
+            <h3>Evolución de Ecosistemas</h3>
+            <p>Ayudamos a adaptar y evolucionar los sistemas empresariales para mantenerse al día con las demandas del mercado y las tecnologías emergentes.</p>
+        </div>
+        <div class="service" id="service-4">
+            <h3>Soluciones Low-Code</h3>
+            <p>Desarrollamos aplicaciones y sistemas empresariales de manera eficiente utilizando plataformas de desarrollo de bajo código.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contáctenos</h2>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario de Contacto</title>
+<link rel="stylesheet" href="Estilos.css/style.css">
+</head>
+<body>
+<form id="contactForm">
+    <label for="fullName">Nombre completo:</label>
+    <input type="text" id="fullName" name="fullName" required>
+
+    <label for="service">Servicio:</label>
+    <select id="service" name="service" required>
+        <option value="" disabled selected>Seleccione un servicio</option>
+        <option value="Consultoría Digital">Consultoría Digital</option>
+        <option value="Soluciones Multiexperiencia">Soluciones Multiexperiencia</option>
+        <option value="Evolución de Ecosistemas">Evolución de Ecosistemas</option>
+        <option value="Soluciones Low-Code">Soluciones Low-Code</option>
+    </select>
+
+    <label for="message">Mensaje:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <input type="submit" value="Enviar">
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
+    <section>
+        <address>
+            <p>Dirección física:</p>
+            <p>Av. Providencia 1234, Oficina 601</p>
+            <p>Providencia, Santiago</p>
+            <p>Chile</p>
+            <p>Contacto telefónico:</p>
+            <p>Teléfono: +56 2 1234 5678</p>
+            <p>Dominio de la página web:</p>
+            <p>www.coningenio.cl</p>
+            <p>Correo electrónico:</p>
+            <p>info@coningenio.cl</p>
+        </address>
+    </section>
+
+    <section id="about">
+        <h2>Nosotros</h2>
+        <div id="mission">
+            <h3>Misión</h3>
+            <p>En Coningenio, visualizamos un futuro donde nuestras soluciones innovadoras y servicios de consultoría de alta calidad son los pilares que sustentan el crecimiento empresarial y la eficiencia operativa en la era digital. Nos vemos como líderes indiscutibles en el campo de la consultoría digital, actuando como socios estratégicos que guían a las empresas hacia el éxito, anticipando y abordando los desafíos futuros con excelencia y compromiso.</p>
+        </div>
+        <div id="vision">
+            <h3>Visión</h3>
+            <p>Nuestra misión es ser el socio de confianza de nuestros clientes en su búsqueda de la excelencia digital. Nos comprometemos a entender sus necesidades específicas y proporcionar soluciones a medida que maximicen su potencial en el mundo digital. Guiados por nuestros valores de integridad, colaboración, excelencia y pasión por el éxito del cliente, trabajamos incansablemente para mantenernos a la vanguardia de las últimas tendencias y tecnologías, ofreciendo un servicio excepcional que supere las expectativas en cada interacción.</p>
+            <br>
+        </div>
+    </section>
+    <footer>
+        <img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp" onclick="window.location.href='https://wa.me/56965113642?text=Hola%20'">
+    </footer>
+
+    <script src="script.js"></script> <!-- Referencia al archivo JavaScript -->
+</body>
+</html>
